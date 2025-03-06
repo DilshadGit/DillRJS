@@ -84,3 +84,5 @@ HOOKS:
 - Component types - Functional components and Class components
 - Using state, lifecycle methods and 'this' binding.
 - After understanding state, event binding and lifecycle hooks in class components.
+
+## JSX branch
