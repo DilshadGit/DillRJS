@@ -72,3 +72,15 @@ Properties(props) -----> ES6 -----> HTML (JSX)
  - Complex UI logic
  - Provide lifecycle hooks
  - Stateful / Smart / Container
+
+# https://legacy.reactjs.org/docs/hooks-intro.html
+## react alpha Introducting https://legacy.reactjs.org/docs/hooks-intro.html
+Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+
+HOOKS:
+- No breaking changes
+- Completely opt-in & 100% backwards-compatible.
+- What ever we've learned so far in this series still holds good.
+- Component types - Functional components and Class components
+- Using state, lifecycle methods and 'this' binding.
+- After understanding state, event binding and lifecycle hooks in class components.
