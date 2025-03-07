@@ -5,6 +5,7 @@ import DivComponent from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Greet from "./components/Greet";
+import Message from "./components/Message";
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
             <Greet name="Articles" heroName="Articles">
                 <button>Article</button>
             </Greet>
-           <Welcome name="Project" heroName="project"></Welcome>
-           <Welcome name="Design" heroName="Design"></Welcome>
-           <Welcome name="Database" heroName="Database"></Welcome>
+            <Welcome name="Project" heroName="project"></Welcome>
+            <Welcome name="Design" heroName="Design"></Welcome>
+            <Welcome name="Database" heroName="Database"></Welcome>
+            <Message />
     </div>
   );
 }
