@@ -6,6 +6,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Greet from "./components/Greet";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
             <Welcome name="Design" heroName="Design"></Welcome>
             <Welcome name="Database" heroName="Database"></Welcome>
             <Message />
+            <br/>
+            <Counter />
     </div>
   );
 }
