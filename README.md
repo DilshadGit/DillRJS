@@ -86,3 +86,5 @@ HOOKS:
 - After understanding state, event binding and lifecycle hooks in class components.
 
 ## JSX branch
+
+## Props

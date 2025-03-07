@@ -7,6 +7,14 @@ import React from 'react'
 // }
 
 // This is ES6 librally
-const Greet = () => <h1>Welcome to Tutorial from components!</h1>;
+const Greet = (props) => {
+    console.log(props)
+    return (
+        <div>
+            <h1>{props.name} | {props.heroName}</h1>
+            <p>{props.children}</p>
+        </div>
+    );
+}
 
 export default Greet;
